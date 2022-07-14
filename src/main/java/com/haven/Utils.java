@@ -20,6 +20,7 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.client.event.sound.SoundEvent;
 
 import javax.sound.sampled.Clip;
 
@@ -84,7 +85,6 @@ public class Utils {
 
         ClipContext rayTraceContext = new ClipContext(player.getEyePosition(1), player.getEyePosition(1).add(player.getLookAngle().scale(distance)), ClipContext.Block.COLLIDER, fluidMode, player);
         BlockHitResult blockHit = player.level.clip(rayTraceContext);
-
         if(blockHit.getType() == BlockHitResult.Type.MISS){
             return null;
         }
@@ -125,7 +125,7 @@ public class Utils {
      * @param pos position of the block from which to spread
      * @return a random position near that block.
      */
-    public static BlockPos findNeightborBlock(BlockPos pos){
+    public static BlockPos findNeighborBlock(BlockPos pos){
 
         int spreadX = (int)Math.floor(Math.random()*3) - 1;
         int spreadY = spreadX == 0 ? (int)Math.floor(Math.random()*3) - 1 : 0 ;
@@ -135,5 +135,8 @@ public class Utils {
 
         return spreadPos;
     }
+
+
+
 
 }

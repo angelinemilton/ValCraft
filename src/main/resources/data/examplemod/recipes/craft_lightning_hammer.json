@@ -7,14 +7,14 @@
   ],
   "key": {
     "x": {
-      "item": "valcraft:structuregel"
+      "item": "haven:structuregel"
     },
     "y": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "valcraft:lightninghammer",
+    "item": "haven:lightninghammer",
     "count": 1
   }
 }

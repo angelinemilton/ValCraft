@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valcraft:gelore"
+          "name": "haven:gelore"
         }
       ],
       "conditions": [

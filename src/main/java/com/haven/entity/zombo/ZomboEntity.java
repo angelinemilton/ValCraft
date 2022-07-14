@@ -43,7 +43,7 @@ public class ZomboEntity extends Zombie {
     public void registerGoals() {
         this.targetSelector.addGoal(0, new FloatGoal(this));
         //this.targetSelector.addGoal(1, new NearestAttackableTargetGoal<>(this, Player.class, false));
-        //this.targetSelector.addGoal(3, new MeleeAttackGoal(this, 0.8f, false));
+        this.targetSelector.addGoal(3, new MeleeAttackGoal(this, 0.8f, false));
         //this.targetSelector.addGoal(4, (new HurtByTargetGoal(this)).setAlertOthers(ZomboEntity.class));
         this.targetSelector.addGoal(8, new RandomLookAroundGoal(this));
     }

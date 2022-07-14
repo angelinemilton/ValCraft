@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "valcraft:item/structuregel"
+		"layer0": "haven:item/structuregel"
 	}
 }
