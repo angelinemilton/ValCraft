@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    }
+  ],
+  "result":
+  {
+    "item": "examplemod:sushi",
+    "count": 1
+  }
+}
+
+
+

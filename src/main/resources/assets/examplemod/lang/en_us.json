@@ -1,0 +1,15 @@
+{
+  "item.examplemod.structuregel": "Structure Gel",
+  "block.examplemod.castlewall": "Castle Wall",
+  "item.examplemod.gelore": "Gel Ore",
+  "item.examplemod.strawberry": "Strawberry",
+  "item.examplemod.sushi": "Sushi",
+  "item.examplemod.teleportrod": "Teleport Rod",
+  "item.examplemod.lightninghammer": "Lightning Hammer",
+  "block.examplemod.geloreblock": "Gel Ore Block",
+  "block.examplemod.rubber": "Rubber Block",
+  "item.examplemod.zombo_egg": "Zombo egg",
+  "entity.examplemod.zombo": "zombo",
+  "entity.examplemod.horsey": "BlackPink Horse",
+  "item.examplemod.horsey_egg": "BlackPink Egg"
+}
