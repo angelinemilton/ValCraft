@@ -1,5 +1,6 @@
 package com.haven.item;
 
+import com.haven.ModSoundEvents;
 import com.haven.Utils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
@@ -25,12 +26,13 @@ public class TeleportRodItem extends Item {
     public InteractionResultHolder<ItemStack> use(Level level, Player playerIn, InteractionHand handIn) {
 
         ItemStack itemstack = playerIn.getItemInHand(handIn);
-
+        playerIn.playSound(ModSoundEvents.LOVE.get(), 1, 1);
         BlockPos blockPos = Utils.getBlockAtCursor(playerIn, 1000.0d, true);
 
         if (blockPos != null){
             playerIn.teleportTo(blockPos.getX(), blockPos.getY(), blockPos.getZ());
             playerIn.fallDistance = 0.0F;
+
         }
 
         return InteractionResultHolder.pass(itemstack);

@@ -1,0 +1,9 @@
+{
+  "love": {
+    "category": "blocks",
+    "subtitle": "examplemod.love",
+    "sounds": [
+      "examplemod:love"
+    ]
+  }
+}
