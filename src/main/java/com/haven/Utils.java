@@ -1,4 +1,4 @@
-package com.idtech;
+package com.haven;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

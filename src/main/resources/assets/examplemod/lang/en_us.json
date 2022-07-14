@@ -1,15 +1,15 @@
 {
-  "item.examplemod.structuregel": "Structure Gel",
-  "block.examplemod.castlewall": "Castle Wall",
-  "item.examplemod.gelore": "Gel Ore",
-  "item.examplemod.strawberry": "Strawberry",
-  "item.examplemod.sushi": "Sushi",
-  "item.examplemod.teleportrod": "Teleport Rod",
-  "item.examplemod.lightninghammer": "Lightning Hammer",
-  "block.examplemod.geloreblock": "Gel Ore Block",
-  "block.examplemod.rubber": "Rubber Block",
-  "item.examplemod.zombo_egg": "Zombo egg",
-  "entity.examplemod.zombo": "zombo",
-  "entity.examplemod.horsey": "BlackPink Horse",
-  "item.examplemod.horsey_egg": "BlackPink Egg"
+  "item.valcraft.structuregel": "Structure Gel",
+  "block.valcraft.castlewall": "Castle Wall",
+  "item.valcraft.gelore": "Gel Ore",
+  "item.valcraft.strawberry": "Strawberry",
+  "item.valcraft.sushi": "Sushi",
+  "item.valcraft.teleportrod": "Teleport Rod",
+  "item.valcraft.lightninghammer": "Lightning Hammer",
+  "block.valcraft.geloreblock": "Gel Ore Block",
+  "block.valcraft.rubber": "Rubber Block",
+  "item.valcraft.zombo_egg": "Zombo egg",
+  "entity.valcraft.zombo": "zombo",
+  "entity.valcraft.horsey": "BlackPink Horse",
+  "item.valcraft.horsey_egg": "BlackPink Egg"
 }

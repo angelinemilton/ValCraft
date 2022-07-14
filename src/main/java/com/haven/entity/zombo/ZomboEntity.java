@@ -1,7 +1,7 @@
-package com.idtech.entity.zombo;
+package com.haven.entity.zombo;
 
-import com.idtech.BaseMod;
-import com.idtech.entity.EntityUtils;
+import com.haven.BaseMod;
+import com.haven.entity.EntityUtils;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;

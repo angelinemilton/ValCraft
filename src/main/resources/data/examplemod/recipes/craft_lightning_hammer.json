@@ -7,14 +7,14 @@
   ],
   "key": {
     "x": {
-      "item": "examplemod:structuregel"
+      "item": "valcraft:structuregel"
     },
     "y": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "examplemod:lightninghammer",
+    "item": "valcraft:lightninghammer",
     "count": 1
   }
 }

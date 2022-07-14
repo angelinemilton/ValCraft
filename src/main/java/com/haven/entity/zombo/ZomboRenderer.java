@@ -1,6 +1,6 @@
-package com.idtech.entity.zombo;
+package com.haven.entity.zombo;
 
-import com.idtech.BaseMod;
+import com.haven.BaseMod;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.ZombieRenderer;
 import net.minecraft.resources.ResourceLocation;

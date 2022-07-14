@@ -1,4 +1,4 @@
-package com.idtech.block;
+package com.haven.block;
 
 
 import net.minecraft.world.item.CreativeModeTab;

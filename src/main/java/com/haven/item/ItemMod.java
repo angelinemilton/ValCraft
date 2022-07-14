@@ -1,4 +1,4 @@
-package com.idtech.item;
+package com.haven.item;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

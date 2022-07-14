@@ -1,4 +1,4 @@
-package com.idtech.entity.horsey;
+package com.haven.entity.horsey;
 
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

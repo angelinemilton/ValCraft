@@ -1,6 +1,6 @@
-package com.idtech.entity.horsey;
+package com.haven.entity.horsey;
 
-import com.idtech.BaseMod;
+import com.haven.BaseMod;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;

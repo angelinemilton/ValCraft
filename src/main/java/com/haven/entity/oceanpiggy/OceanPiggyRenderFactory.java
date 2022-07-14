@@ -1,6 +1,6 @@
-package com.idtech.entity.oceanpiggy;
+package com.haven.entity.oceanpiggy;
 
-import com.idtech.entity.horsey.HorseyRenderFactory;
+import com.haven.entity.horsey.HorseyRenderFactory;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.PigRenderer;

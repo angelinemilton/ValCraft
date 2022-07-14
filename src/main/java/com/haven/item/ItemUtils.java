@@ -1,6 +1,6 @@
-package com.idtech.item;
+package com.haven.item;
 
-import com.idtech.BaseMod;
+import com.haven.BaseMod;
 
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -58,7 +58,7 @@ public class ItemUtils {
      * @param toughnessIn How long it takes until the armor breaks.
      * @param knockbackResistanceIn A value for knockback resistance of the armor.
      * @param repairIngredientName A registry name of the ingredient needed to repair this tool e.g. "minecraft:stick"
-     *      *                       or "examplemod:meteor_ingot".
+     *      *                       or "valcraft:meteor_ingot".
      * @return the built Armor Material
      */
     public static ArmorMaterial buildArmorMaterial(String nameIn, int maxDamageFactorIn, int[] damageReductionAmountArrayIn, int enchantabilityIn, SoundEvent eqiupSoundIn,

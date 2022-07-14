@@ -1,6 +1,6 @@
-package com.idtech.item;
+package com.haven.item;
 
-import com.idtech.Utils;
+import com.haven.Utils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;

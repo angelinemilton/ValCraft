@@ -1,11 +1,11 @@
-package com.idtech;
+package com.haven;
 
-import com.idtech.block.*;
-import com.idtech.enchantment.EnchantmentMod;
-import com.idtech.entity.*;
-import com.idtech.item.*;
+import com.haven.block.*;
+import com.haven.enchantment.EnchantmentMod;
+import com.haven.entity.*;
+import com.haven.item.*;
 
-//import com.idtech.world.WorldMod;
+//import com.haven.world.WorldMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
@@ -45,7 +45,7 @@ import java.util.stream.Collectors;
 public class BaseMod {
 
     // Change your modid here. Whenever modid is needed, use BaseMod.MODID
-    public static final String MODID = "examplemod";
+    public static final String MODID = "valcraft";
     private static final Logger LOGGER = LogManager.getLogger(BaseMod.MODID);
 
     public BaseMod() {

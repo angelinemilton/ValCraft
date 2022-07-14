@@ -1,9 +1,9 @@
-package com.idtech.entity;
+package com.haven.entity;
 
-import com.idtech.entity.horsey.HorseyEntity;
-import com.idtech.entity.horsey.HorseyRenderFactory;
-import com.idtech.entity.zombo.ZomboEntity;
-import com.idtech.entity.zombo.ZomboRenderFactory;
+import com.haven.entity.horsey.HorseyEntity;
+import com.haven.entity.horsey.HorseyRenderFactory;
+import com.haven.entity.zombo.ZomboEntity;
+import com.haven.entity.zombo.ZomboRenderFactory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.client.event.EntityRenderersEvent;

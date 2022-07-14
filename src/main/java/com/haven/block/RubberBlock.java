@@ -1,6 +1,6 @@
-package com.idtech.block;
+package com.haven.block;
 
-import com.idtech.BaseMod;
+import com.haven.BaseMod;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.CreativeModeTab;

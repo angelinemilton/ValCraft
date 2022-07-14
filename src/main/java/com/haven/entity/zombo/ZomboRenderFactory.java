@@ -1,4 +1,4 @@
-package com.idtech.entity.zombo;
+package com.haven.entity.zombo;
 
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

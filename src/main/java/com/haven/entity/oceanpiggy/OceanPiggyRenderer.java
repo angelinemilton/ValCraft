@@ -1,6 +1,6 @@
-package com.idtech.entity.oceanpiggy;
+package com.haven.entity.oceanpiggy;
 
-import com.idtech.BaseMod;
+import com.haven.BaseMod;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.PigRenderer;

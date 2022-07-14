@@ -1,4 +1,4 @@
-package com.idtech.enchantment;
+package com.haven.enchantment;
 
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraftforge.event.RegistryEvent;
