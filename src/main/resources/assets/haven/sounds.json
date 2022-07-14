@@ -5,5 +5,13 @@
     "sounds": [
       "haven:love"
     ]
+  },
+  "kannazhaga": {
+    "category": "blocks",
+    "subtitle": "haven.kannazhaga",
+    "sounds": [
+      "haven:kannazhaga"
+    ]
+
   }
 }

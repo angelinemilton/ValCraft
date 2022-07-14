@@ -33,6 +33,7 @@ public class ItemMod {
         event.getRegistry().register(TeleportRodItem.INSTANCE);
         event.getRegistry().register(LightningHammerItem.INSTANCE);
         event.getRegistry().register(BouquetItem.INSTANCE);
+        event.getRegistry().register(MookiHeartItem.INSTANCE);
         // TOOLS
 
         // FOOD
