@@ -18,7 +18,7 @@ public class ItemMod {
     public static final Item STRAWBERRY = ItemUtils.buildBasicItem("strawberry", CreativeModeTab.TAB_MISC);
 
     //FOODS
-    public static FoodProperties sushi = (new FoodProperties.Builder().nutrition(3).saturationMod(1.4f).effect(new MobEffectInstance(MobEffects.LEVITATION, 500, 1), 1.0f).alwaysEat().build());
+    public static FoodProperties sushi = (new FoodProperties.Builder().nutrition(3).saturationMod(1.4f).effect(new MobEffectInstance(MobEffects.WEAKNESS, 500, 1), 1.0f).alwaysEat().build());
     public static Item sushiItem = ItemUtils.buildFoodItem("sushi", sushi);
 
     @SubscribeEvent
@@ -32,6 +32,7 @@ public class ItemMod {
         // ITEMS
         event.getRegistry().register(TeleportRodItem.INSTANCE);
         event.getRegistry().register(LightningHammerItem.INSTANCE);
+        event.getRegistry().register(BouquetItem.INSTANCE);
         // TOOLS
 
         // FOOD

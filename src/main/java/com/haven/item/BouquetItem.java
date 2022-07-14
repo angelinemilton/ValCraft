@@ -10,17 +10,17 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import org.lwjgl.system.CallbackI;
 
-public class TeleportRodItem extends Item {
+public class BouquetItem extends Item {
 
-    //static instance for registration
-    private static Properties properties = new Item.Properties().tab(CreativeModeTab.TAB_MISC);
-    public static Item INSTANCE = new TeleportRodItem(properties).setRegistryName("teleportrod");
+    private static final Properties props = new Properties().tab(CreativeModeTab.TAB_DECORATIONS);
+    public static Item INSTANCE = new BouquetItem(props).setRegistryName("bouquet");
 
-    //constructor
-    public TeleportRodItem(Properties properties) {
+    public BouquetItem(Properties properties) {
         super(properties);
     }
+
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player playerIn, InteractionHand handIn) {
@@ -30,14 +30,10 @@ public class TeleportRodItem extends Item {
         BlockPos blockPos = Utils.getBlockAtCursor(playerIn, 1000.0d, true);
 
         if (blockPos != null){
-            playerIn.teleportTo(blockPos.getX(), blockPos.getY(), blockPos.getZ());
-            playerIn.fallDistance = 0.0F;
-            playerIn.playSound(SoundEvents.CHICKEN_STEP,1,1);
+            playerIn.playSound(SoundEvents.AMBIENT_UNDERWATER_ENTER,1,1);
         }
 
         return InteractionResultHolder.pass(itemstack);
     }
+
 }
-
-
-
