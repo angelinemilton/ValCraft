@@ -1,17 +1,20 @@
 {
   "love": {
-    "category": "blocks",
     "subtitle": "haven.love",
     "sounds": [
       "haven:love"
     ]
   },
   "kannazhaga": {
-    "category": "blocks",
     "subtitle": "haven.kannazhaga",
     "sounds": [
       "haven:kannazhaga"
     ]
-
+  },
+  "eevee": {
+    "subtitle": "haven.eevee",
+    "sounds": [
+      "haven:eevee"
+    ]
   }
 }

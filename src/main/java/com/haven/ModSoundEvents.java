@@ -12,6 +12,7 @@ public class ModSoundEvents {
 
     public static final RegistryObject<SoundEvent> LOVE = registerSoundEvent("love");
     public static final RegistryObject<SoundEvent> KANNAZHAGA = registerSoundEvent("kannazhaga");
+    public static final RegistryObject<SoundEvent> EEVEE = registerSoundEvent("eevee");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name){
         return SOUND_EVENTS.register(name, () -> new SoundEvent(new ResourceLocation(BaseMod.MODID, name)));
